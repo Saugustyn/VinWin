@@ -5,7 +5,11 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{6A1C2571-317D-4881-9ACA-36DB27534199}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinWin.Web", "VinWin.Web\VinWin.Web.csproj", "{23DE4D6E-BDE1-4DA1-9D3C-D07CF1992128}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VinWin.Web", "VinWin.Web\VinWin.Web.csproj", "{23DE4D6E-BDE1-4DA1-9D3C-D07CF1992128}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EC3C1830-B459-4CBE-B946-AA8571EAA008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinWin.Sevices.ProductAPI", "VinWin.Sevices.ProductAPI\VinWin.Sevices.ProductAPI.csproj", "{832EFB9C-808D-4012-BD9A-07534F921A00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{23DE4D6E-BDE1-4DA1-9D3C-D07CF1992128}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23DE4D6E-BDE1-4DA1-9D3C-D07CF1992128}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23DE4D6E-BDE1-4DA1-9D3C-D07CF1992128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832EFB9C-808D-4012-BD9A-07534F921A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832EFB9C-808D-4012-BD9A-07534F921A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832EFB9C-808D-4012-BD9A-07534F921A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832EFB9C-808D-4012-BD9A-07534F921A00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{23DE4D6E-BDE1-4DA1-9D3C-D07CF1992128} = {6A1C2571-317D-4881-9ACA-36DB27534199}
+		{832EFB9C-808D-4012-BD9A-07534F921A00} = {EC3C1830-B459-4CBE-B946-AA8571EAA008}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ABF9079A-3A7C-42E7-8E01-0C3C6081F43E}

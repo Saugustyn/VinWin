@@ -12,4 +12,4 @@ namespace VinWin.Sevices.ProductAPI.Models.Dto
         public string ImageUrl { get; set; }
     }
 }
-}
+

@@ -8,6 +8,8 @@ namespace VinWin.Sevices.ProductAPI.Models
         public int ProductId { get; set; }
         [Required]
         public string Name { get; set; }
+        [Required]
+        public string Author { get; set; }
         [Range(1,1000)]
         public double Price { get; set; }
         public string Description { get; set; }
